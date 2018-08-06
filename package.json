@@ -1,0 +1,29 @@
+{
+  "name": "reanimated-collapsible-navbar",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native": "^5",
+    "jest": "^23.4.2",
+    "jest-react-native": "^18.0.0",
+    "patch-package": "^5.1.1",
+    "postinstall-postinstall": "^1.0.0",
+    "prettier": "^1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "postinstall": "patch-package"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-reanimated": "1.0.0-alpha.5"
+  }
+}
